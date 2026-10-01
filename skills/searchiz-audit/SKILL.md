@@ -5,7 +5,7 @@ description: Audit whether AI search (ChatGPT, Claude, Perplexity, Google AI) ca
 
 # Searchiz audit
 
-Runs the open [searchiz-audit](https://github.com/paulopmtl/searchiz-audit) checks
+Runs the open [searchiz-audit](https://github.com/searchiz/searchiz-audit) checks
 on the site this repository publishes, applies the fixes that need no facts
 from the owner, and opens a pull request. It never invents business facts.
 
@@ -20,7 +20,7 @@ certain, ask.
 ## 2. Run the audit
 
 ```sh
-npx -y github:paulopmtl/searchiz-audit <url> --format json --out .searchiz-audit.json --diffs .searchiz-fixes
+npx -y github:searchiz/searchiz-audit <url> --format json --out .searchiz-audit.json --diffs .searchiz-fixes
 ```
 
 Read `.searchiz-audit.json`. Each check has `status` (`pass`, `warn`, `fail`,

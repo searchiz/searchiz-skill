@@ -1,6 +1,6 @@
 # searchiz-skill
 
-The [searchiz-audit](https://github.com/paulopmtl/searchiz-audit) checks as an
+The [searchiz-audit](https://github.com/searchiz/searchiz-audit) checks as an
 agent skill and plugin: your coding agent audits whether AI search can read the
 site this repository publishes, applies the fixes that need no facts from you,
 and opens a pull request. It never invents business facts; anything only you
@@ -11,14 +11,14 @@ know is listed in the pull request instead.
 **Claude Code**
 
 ```
-/plugin marketplace add paulopmtl/searchiz-skill
+/plugin marketplace add searchiz/searchiz-skill
 /plugin install searchiz-audit@searchiz
 ```
 
 **Codex and ChatGPT desktop** (repo marketplace)
 
 ```sh
-codex plugin marketplace add paulopmtl/searchiz-skill
+codex plugin marketplace add searchiz/searchiz-skill
 ```
 
 **Cursor**: copy `.cursor/rules/searchiz-audit.mdc` into your project's
@@ -33,7 +33,7 @@ fixes."
 ## What happens
 
 1. The agent finds the site URL (CNAME, package.json, site config) or asks.
-2. It runs `npx -y github:paulopmtl/searchiz-audit <url> --format json`.
+2. It runs `npx -y github:searchiz/searchiz-audit <url> --format json`.
 3. It applies the robots.txt and canonical fixes, fills structured data and
    meta description only with facts already in the repository, and lists what
    is missing.
