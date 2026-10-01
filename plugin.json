@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "searchiz-audit",
+  "version": "1.0.0",
+  "description": "Audit whether AI search can read your site, apply the safe fixes and open a pull request.",
+  "author": { "name": "Searchiz", "email": "support@searchiz.com", "url": "https://searchiz.com" },
+  "homepage": "https://github.com/paulopmtl/searchiz-skill",
+  "repository": "https://github.com/paulopmtl/searchiz-skill",
+  "license": "MIT",
+  "keywords": ["geo", "aeo", "ai search", "seo", "robots.txt", "structured data"]
+}

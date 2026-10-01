@@ -1,0 +1,18 @@
+{
+  "name": "searchiz",
+  "owner": {
+    "name": "Searchiz",
+    "email": "support@searchiz.com"
+  },
+  "plugins": [
+    {
+      "name": "searchiz-audit",
+      "source": "./",
+      "description": "Audit whether AI search can read your site, apply the safe fixes and open a pull request."
+    }
+  ],
+  "description": "Searchiz tools for AI search visibility: audit a site and open a pull request with the fixes.",
+  "metadata": {
+    "description": "Searchiz tools for AI search visibility: audit a site and open a pull request with the fixes."
+  }
+}
