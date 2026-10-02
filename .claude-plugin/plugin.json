@@ -1,6 +1,6 @@
 {
   "name": "searchiz-audit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Audit whether AI search can read your site, apply the safe fixes and open a pull request.",
   "author": { "name": "Searchiz", "email": "support@searchiz.com", "url": "https://searchiz.com" },
   "homepage": "https://github.com/searchiz/searchiz-skill",
