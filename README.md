@@ -33,7 +33,7 @@ fixes."
 ## What happens
 
 1. The agent finds the site URL (CNAME, package.json, site config) or asks.
-2. It runs `npx -y github:searchiz/searchiz-audit <url> --format json`.
+2. It runs `npx -y searchiz-audit@1.1.0 <url> --format json`.
 3. It applies the robots.txt and canonical fixes, fills structured data and
    meta description only with facts already in the repository, and lists what
    is missing.

@@ -20,7 +20,7 @@ certain, ask.
 ## 2. Run the audit
 
 ```sh
-npx -y github:searchiz/searchiz-audit <url> --format json --out .searchiz-audit.json --diffs .searchiz-fixes
+npx -y searchiz-audit@1.1.0 <url> --format json --out .searchiz-audit.json --diffs .searchiz-fixes
 ```
 
 Read `.searchiz-audit.json`. Each check has `status` (`pass`, `warn`, `fail`,
